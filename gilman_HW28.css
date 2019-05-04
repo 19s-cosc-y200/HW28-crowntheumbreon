@@ -4,27 +4,25 @@ Date Last Modified: 5/04/2019 */
 
 caption { font-size: 2em; font-weight: bold; }
 
+table { margin: auto; }
 
-.table1 { width: 200px; margin: auto; }
+tbody { font-family: Arial, sans-serif; font-size: .90em; }
+
+tfoot { background-color: #EAEAEA; font-weight: bold; text-align: center; }
+
+tbody td { border-bottom: 1px #000033 dashed; padding-left: 25px; }
+
+
+
 
 .table1 thead { background-color: #EAEAEA; }
 
-.table1 tbody { font-family: Arial, sans-serif; font-size: .90em; }
+.table1 {width: 200px;}
 
-.table1 tbody td { border-bottom: 1px #000033 dashed; padding-left: 25px; }
-
-.table1 tfoot { background-color: #EAEAEA; font-weight: bold; text-align: center; }
-
-
-
-.table2 { width: 400px; margin: auto; }
+.table2 {width: 400px;}
 
 .table2 thead { background-color: #c0c0c0; }
 
-.table2 tbody { font-family: Arial, sans-serif; font-size: .90em; }
-
-.table2 tbody td { border-bottom: 1px #000033 dashed; padding-left: 25px; }
-
-.table2 tfoot { background-color: #c0c0c0; font-weight: bold; text-align: center; }
+.table2 tfoot { background-color: #c0c0c0;}
 
 .table2 tr:nth-child(even){background-color: #00ffff}
